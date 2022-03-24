@@ -1,0 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import "reset.css";
+@import "variables.css";
+
+
+/*Components*/
+@import "component/status-bar.css";
+@import "component/navigation-bar.css";
+@import "component/screen-header.css";
+@import "component/user-component.css";
+
+/*Screens*/
+@import "screens/login.css";
+@import "screens/friends.css";
+
+body{
+    color : #2e363e;
+    height: 1000vh;
+    font-family:'Oswald', sans-serif;
+}
